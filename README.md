@@ -60,6 +60,14 @@ Possui as seguintes funcionalidades:
 **4. Criação de Novas Contas**  
 O método `create_account()` permite adicionar novas contas, solicitando informações como número da conta, PIN e saldo inicial.
 
+**5. Contas Bancárias do Banco de Dados Inicial**  
+O banco de dados inicial possui as seguintes contas de exemplo:
+
+| **Número da Conta** | **PIN** | **Saldo Inicial** |
+|---------------------|---------|-------------------|
+| 1234                | 5678    | R$ 1.000,00       |
+| 5678                | 1234    | R$ 500,00         |
+| 9999                | 8888    | R$ 1.500,00       |
 
 ### Como Executar o Projeto  
 1. Inicialize o banco de dados executando `data_base.py`:  
